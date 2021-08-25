@@ -1,0 +1,24 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Prueba para aprender NPM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha",
+    "dev": "supervisor index.js"
+  },
+  "keywords": [
+    "app-demo",
+    "demo"
+  ],
+  "author": "Axel Rivas",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "mocha": "^9.1.0"
+  }
+}
